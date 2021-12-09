@@ -96,13 +96,14 @@
 			}
 			#img_header{
     			float:left; 
-    			margin:10px; 
-    			width:200px; 
-    			height:100px
+    			margin:45px; 
+    			width:150px; 
+    			height:150px
 			}
 			#div_headertittle{
+                font-weight: 450px;
 				background-color:#D7FFFD; 
-    			padding:10px
+    			padding:45px
 			}
 			body{
     			margin: 0; 
@@ -116,30 +117,31 @@
     			max-width:960px;
 			}
 			.div1{
-  				background-color:#e42a3a; 
+  				background-color:#f346; 
    				margin: 0 auto; 
     			margin-top:20px; 
-    			padding:10px
+    			padding:15px;
 			}
 			.div2{
-    			width:960px;
+    			width:360px;
     			background-color:#54ec3f; 
     			margin: 0 auto; 
     			margin-top:20px; 
     			padding:10px
 			}
 			.div3{
-   				background-color:#c413c4; 
+                width: 760px;
+   				background-color:#f8aaf8; 
     			margin: 0 auto; 
     			margin-top:20px; 
     			padding:10px
 			}
 			table {
     			margin:auto;
-    			border: 1px solid black
+    			border: 1px solid gold
 			}
 			table td,table th{
-    			border: 1px solid black
+    			border: 1px solid gold
 			}
 			.chet{
    				background-color:#979c9c
@@ -148,24 +150,26 @@
     			background-color:#04333b46
 			}
 			nav{
-   				background-color:#f8fc21; 
+   				background-color:inherit; 
    				margin: 0 auto; 
     			margin-top:20px; 
     			padding:10px
 			}
 			nav.nav2{
-    		background-color:#b253f1; 
+    		background-color:#b273f1; 
     		margin-bottom:20px
 			}
 			footer{
-    			width:100%; 
-    			background-color:#694702; 
+    			width:75%; 
+                display: flex;
+                justify-content: start;
+    			background-color:#ffd174; 
     			margin:10px 0 0 0; 
     			padding:50px
 			}
 			div.div4{
     			width:165px;
-    			background-color:#072f79
+    			background-color:#5791fc
 			}
 		}
 		</style>
@@ -175,14 +179,14 @@
 	<body>
 		<header>
 			<div >
-				<img id="img_header" src="http://getdrawings.com/image/smurf-drawing-58.jpg" alt="Описание картинки" /> 
-				<div id="div_headertittle">Тестовый сайт 3</div>
+				<img id="img_header" src="http://getdrawings.com/image/smurf-drawing-58.jpg" alt=""/> 
+				<div id="div_headertittle" style="font-weight: bold;">Cайт 3</div>
 			</div>
 		</header>
 
         <main>
 			<div id="div_nav">
-				<nav>Меню сайта:
+				<nav style="font-weight: bold; padding: 0px 20px;">Меню:
 			   <ul>
 			   <li><a href="#Гиперссылки">Список гиперссылок</a></li>
 			   <li><a href="#Таблица">Таблица</a></li>
